@@ -11,19 +11,19 @@ module.exports = function(grunt) {
     uglify: {
       options: {
         stripBanners: true,
-        banner: '/*! <%=pkg.name%>.js <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+        banner: '/*! <%=pkg.title%>.js <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       build: {
-        src: 'src/js/<%=pkg.name%>.js',
-        dest: 'dist/js/<%=pkg.name%>.min.js'
+        src: 'src/js/<%=pkg.title%>.js',
+        dest: 'dist/js/<%=pkg.title%>.min.js'
       }
     },
 
     //less插件的配置信息
     less: {
       editor: {
-        src: 'src/css/<%=pkg.name%>.less',
-        dest: 'src/css/<%=pkg.name%>.css'
+        src: 'src/css/<%=pkg.title%>.less',
+        dest: 'src/css/<%=pkg.title%>.css'
       }
     },
 
@@ -31,11 +31,11 @@ module.exports = function(grunt) {
     cssmin: {
       options: {
         stripBanners: true,
-        banner: '/*! <%=pkg.name%>.css <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+        banner: '/*! <%=pkg.title%>.css <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       build: {
-        src: 'src/css/<%=pkg.name%>.css',
-        dest: 'dist/css/<%=pkg.name%>.min.css'
+        src: 'src/css/<%=pkg.title%>.css',
+        dest: 'dist/css/<%=pkg.title%>.min.css'
       }
     },
 
@@ -51,11 +51,11 @@ module.exports = function(grunt) {
     concat: {
       css:{
         src: 'src/css/parts/*.less',
-        dest: 'src/css/<%=pkg.name%>.less'
+        dest: 'src/css/<%=pkg.title%>.less'
       },
       js:{
         src: 'src/js/parts/*.js',
-        dest: 'src/js/<%=pkg.name%>.js'
+        dest: 'src/js/<%=pkg.title%>.js'
       }
     },
 

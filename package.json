@@ -1,15 +1,15 @@
 {
-  "name": "cpWangeditor",
-  "title": "cpWangeditor",
-  "version": "2.1.23",
-  "description": "cpWangeditor - 对 wangEditor 的简单修改及包装（根据工作需要做的简单修改）",
+  "name": "cpwangeditor",
+  "title": "wangeditor",
+  "version": "1.0.0",
+  "description": "cpwangeditor - 对 wangEditor 的简单修改及包装（根据工作需要做的简单修改）",
   "homepage": "https://guoxb.com/",
   "author": {
-    "name": "gxbxgithub",
+    "name": "guoxbnpm",
     "url": "https://github.com/gxbxgithub"
   },
   "keywords": [
-    "cpWangeditor",
+    "cpwangeditor",
     "富文本编辑器"
   ],
   "main": "dist/js/wangEditor.js",

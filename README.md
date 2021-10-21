@@ -1,4 +1,8 @@
+# 特别声明
 
+cpWangeditor 是对 wangEditor 的简单修改及包装（根据工作需要做的简单修改）
+
+以下是 wangEditor 的介绍，有兴趣可以移至 [wangEditor](https://github.com/wangeditor-team/wangEditor)。
 # 1. 介绍
 
 **wangEditor**——轻量级web富文本编辑器，配置方便，使用简单</b>。支持IE8+浏览器。
@@ -59,6 +63,3 @@
  - 进入源码目录，找到 `server.js` 命令行中运行 `node server.js`
  - 打开浏览器访问 `http://localhost:8011/test/index.html`
 
-# 5. 交流
-
-交流QQ群：**164999061**
